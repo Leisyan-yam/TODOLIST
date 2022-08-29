@@ -4,7 +4,10 @@ justify-content: center;
 background-image: url(bg.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-height: fit-content;
+height: 100vh;
+max-height: fit-content;
+background-attachment: fixed;
+background-position: center;
 }
 
 .App{
